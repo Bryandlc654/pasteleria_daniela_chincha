@@ -73,6 +73,10 @@ section{
     cursor: pointer;
     background: none;
 }
+.links2:hover{
+    background: var(--orange);
+    color:#fff;
+}
 
 .btn:hover{
     background: var(--orange);
@@ -164,12 +168,12 @@ section{
 }
 
 .home .content h3{
-    color:var(--black);
+    color:var(--orange);
     font-size: 4rem;
 }
 
 .home .content h3 span{
-    color:var(--orange);
+    color:var(--black);
 }
 
 .home .content p{
@@ -514,7 +518,8 @@ section{
         font-size: 55%;
     }
     .content{
-        padding-top: 380px;
+        padding-top: 330px;
+        text-align: justify;
     }
 
     .header{
