@@ -1,12 +1,3 @@
-let searchForm = document.querySelector('.search-form');
-
-document.querySelector('#search-btn').onclick = () =>{
-    searchForm.classList.toggle('active');
-    shoppingCart.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -64,3 +55,15 @@ var swiper = new Swiper(".review-slider", {
       },
     },
 });
+
+
+//var input = document.getElementById("tarea")
+//var boton = document.getElementById("boton")
+//var tareas = document.querySelector("ul")
+
+//boton.addEventListener("click", function(){
+  //var tarea = input.value
+  //var li = document.createElement("li")
+  //li.textContent = tarea
+  //tareas.appendChild(li)
+//})
