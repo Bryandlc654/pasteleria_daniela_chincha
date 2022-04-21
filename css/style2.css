@@ -160,8 +160,10 @@ section{
 }
 
 .categories .box-container .box img{
-    margin:1rem 0;
-    height:15rem;
+    height:200px;
+    width: 180px;
+        
+    
 }
 
 .categories .box-container .box h3{
