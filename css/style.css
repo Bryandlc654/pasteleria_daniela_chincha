@@ -164,7 +164,7 @@ section{
 
 .home .content{
     text-align: left;
-    width:70rem;
+    width:65rem;
 }
 
 .home .content h3{
@@ -180,7 +180,9 @@ section{
     color:var(--light-color);
     font-size: 1.7rem;
     padding:1rem 0;
-    line-height: 1.8;
+    line-height: 1.5;
+    text-align: justify;
+    width:43rem;
 }
 
 .features .box-container{

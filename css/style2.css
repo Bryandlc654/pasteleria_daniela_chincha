@@ -133,40 +133,11 @@ section{
 #menu-btn{
     display: none;
 }
-
-
-.home{
-    display: flex;
-    align-items:center;
-    justify-content: left;
-    background: url(../image/irene-kredenets-DHaZQh7hR2U-unsplash.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 17rem;
-    padding-bottom: 10rem;
-    
+.categories h1{
+    margin-top: 50px;
 }
 
-.home .content{
-    text-align: left;
-    width:70rem;
-}
 
-.home .content h3{
-    color:var(--black);
-    font-size: 4rem;
-}
-
-.home .content h3 span{
-    color:var(--orange);
-}
-
-.home .content p{
-    color:var(--light-color);
-    font-size: 1.7rem;
-    padding:1rem 0;
-    line-height: 1.8;
-}
 .categories .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
@@ -259,8 +230,8 @@ section{
 }
 .close{
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 150px;
+    right: 50px;
     width: 40px;
     cursor: pointer;
 }
@@ -286,6 +257,14 @@ section{
     section{
         padding:2rem;
     }
+    .close{
+        position: absolute;
+        top: 150px;
+        right: 50px;
+        width: 40px;
+        cursor: pointer;
+    }
+
 
 }
 
@@ -319,11 +298,18 @@ section{
         display: block;
     }
     .img-galeria{
-        width: 45%;
+        width: 60%;
     }
     
     .agregarImagen{
-        width: 80%;
+        width: 100%;
+    }
+    .close{
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        width: 40px;
+        cursor: pointer;
     }
 
 }
@@ -346,11 +332,17 @@ section{
         margin: 2rem auto;
     }
     .img-galeria{
-        width: 95%;
+        width: 40%;
     }
     
     .agregar-imagen{
         width: 90%;
     }
-
+    .close{
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        width: 40px;
+        cursor: pointer;
+    }
 }
